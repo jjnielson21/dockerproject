@@ -1,0 +1,7 @@
+my-node-docker:
+  image: jeffreynielson/node-web-app
+  ports:
+    - "3000:3000"
+  environment:
+    - FIRST="Jeffrey"
+    - LAST="Nielson"
